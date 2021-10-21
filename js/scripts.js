@@ -3,7 +3,7 @@ let isJumping = false
 
 function keyUp(event) {
     if (event.keyCode === 32) { // Tecla Espaço do Teclado
-        if (isJumping) {
+        if (!isJumping) {
             Jump() // Chama a função de pulo do Dino
         } 
     }
