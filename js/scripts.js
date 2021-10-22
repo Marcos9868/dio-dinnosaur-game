@@ -39,7 +39,7 @@ function createCactus() {
     let randomTime = Math.random() + 6000 // Gera um número aleatório de cactos na tela
 
     cactus.classList.add('cactus')
-    cactus.style.left = 1000 + 'px'
+    cactus.style.left = 1200 + 'px'
     background.appendChild(cactus)
 
     let leftInterval = setInterval(() => {
