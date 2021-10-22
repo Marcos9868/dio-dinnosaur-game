@@ -23,3 +23,11 @@ body {
     bottom: 0;
     background-image: url(../assets/cactus.png)
 }
+
+.game-over {
+    text-align: center;
+    color: #666666;
+    margin-top: 50px;
+    font-family: Arial;
+}
+
