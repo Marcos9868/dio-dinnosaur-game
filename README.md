@@ -6,6 +6,8 @@ This repository is a project made on Impulse React Web Developer Bootcamp, minis
 
 Here, we have a clone of dinnosaur's game Google.
 
+This project will continue to be updated, and will have the point counters, in addition to another character
+
 ### Used Stacks:
 
 - HTML5
