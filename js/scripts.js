@@ -1,4 +1,5 @@
 const dino = document.querySelector('.dino')
+const background = document.querySelector('.background')
 let isJumping = false
 
 function keyUp(event) {
@@ -31,5 +32,16 @@ function Jump() {
     
     }, 20)
 }
+
+function createCactus() {
+    const cactus = document.createElement('div') // Cria a div para os cactps
+    let cactusPosition = 1030
+
+    cactus.classList.add('cactus')
+    cactus.style.left = 1000 + 'px'
+    background.appendChild(cactus)
+}
+
+createCactus()
 
 document.addEventListener('keyup', keyUp) // Adiciona o evento de pressionar botão do teclado
