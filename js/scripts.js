@@ -36,6 +36,7 @@ function Jump() {
 function createCactus() {
     const cactus = document.createElement('div') // Cria a div para os cactps
     let cactusPosition = 1030
+    let randomTime = Math.random() + 6000 // Gera um número aleatório de cactos na tela
 
     cactus.classList.add('cactus')
     cactus.style.left = 1000 + 'px'
@@ -50,6 +51,8 @@ function createCactus() {
             cactus.style.left = cactusPosition + 'px'
         }
     }, 20)
+
+    setTimeout(createCactus, randomTime)
 }
 
 createCactus()
